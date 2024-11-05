@@ -7,7 +7,9 @@ Basic ICMP Documentation
 ========================
 
 Please add your names and group ID here by editing `index.rst` in the docs folder.
-
+Emre Özdemir 2375483
+Ersin Sert 2448819
+group 40
 
 .. toctree::
    :maxdepth: 2
