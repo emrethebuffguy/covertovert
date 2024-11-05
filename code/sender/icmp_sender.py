@@ -10,7 +10,6 @@ def send_icmp_packet():
     packet = ip_packet / icmp_packet
     
     send(packet)
-    print("ICMP request packet sent with TTL=1")
 
 if __name__ == "__main__":
     send_icmp_packet()
