@@ -1,0 +1,18 @@
+{
+  "covert_channel_code": "CSC-PSV-ICMP",
+  "send": {
+    "parameters": {
+      "size_for_zero": 4,
+      "size_for_one": 8,
+      "log_file_name": "Example_UDPTimingInterarrivalChannelSender.log"
+    }
+  },
+  "receive": {
+    "parameters": {
+      "size_for_zero": 4,
+      "size_for_one": 8,
+      "timeout": 500,
+      "log_file_name": "Example_UDPTimingInterarrivalChannelReceiver.log"
+    }
+  }
+}
