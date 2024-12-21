@@ -2,7 +2,7 @@
 Open source implementation of "network" covert channels.
 This project uses a covert storage channel by varying the sizes of ICMP packets to represent binary data. 
 This project demonstrates how a covert storage channel can be implemented by exploiting ICMP packet size variations. It highlights the potential for data to be transmitted covertly over networks by manipulating protocol parameters in unconventional ways.
-This covert channel transmits 0.0153 bits per second.
+This covert channel transmits 64 bits per second.
 Packet Size Variation: By altering the size of the ICMP packet payload (the data portion of the packet), we encode binary bits ('0' and '1').
 
 ## Encoding Scheme: 
